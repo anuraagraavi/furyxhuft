@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fury | Senior Dog Ambassador</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              rounded: ['"Fredoka"', 'sans-serif'],
+              sans: ['"Quicksand"', 'sans-serif'],
+            },
+            colors: {
+              huft: {
+                peach: '#FFE7D6',
+                beige: '#FFF4EC',
+                cream: '#FDFCF8',
+                orange: '#FF8A5B',
+                orangeHover: '#E57045',
+                green: '#8EA48C',
+                brown: '#8B5E3C',
+                charcoal: '#4A4A4A',
+                gray: '#F5F5F4'
+              }
+            },
+            borderRadius: {
+              '4xl': '2rem',
+              '5xl': '3rem',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #FDFCF8;
+        color: #4A4A4A;
+      }
+      .blob-shape {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
